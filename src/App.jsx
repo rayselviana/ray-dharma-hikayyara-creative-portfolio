@@ -432,10 +432,8 @@ const App = () => {
                 The Leadership
               </motion.h2>
               <h3 className="text-4xl sm:text-5xl md:text-6xl font-light leading-[1.1] tracking-tight text-balance text-white">
-                <SplitReveal
-                  text="Elevating brands through strategic visuals."
-                  delay={0.25}
-                />
+                <h1 className='font-semibold'>Elevating brands through strategic visuals.</h1>
+                  
               </h3>
             </div>
 
@@ -549,12 +547,12 @@ const App = () => {
       <section
         onMouseEnter={() => setIsOverWhite(true)}
         onMouseLeave={() => setIsOverWhite(false)}
-        className="py-24 md:py-40 bg-white text-black overflow-hidden"
+        className="py-24 md:py-40 bg-white text-black"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 md:mb-20 gap-6">
             <div>
-              <div className="overflow-hidden">
+              <div className="">
                 <motion.h2
                   initial={{ y: '110%' }}
                   whileInView={{ y: '0%' }}
