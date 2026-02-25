@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+:root {
+  background-color: #050505;
+  color: white;
+}
+
+body {
+  margin: 0;
+  cursor: none; /* Kita sembunyikan kursor asli untuk diganti kursor custom */
+}
+
+/* Hilangkan scrollbar agar terlihat clean */
+::-webkit-scrollbar {
+  display: none;
+}
